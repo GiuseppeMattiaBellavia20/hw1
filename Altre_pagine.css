@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+}
+
+nav{
+    height: 20%;
+    background-color: rgb(208, 208, 208);
+}
+
+nav.pref{
+    height: 10%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar{
+    height: 100%;
+    background-color: rgb(147, 147, 147);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    background-color: whitesmoke;
+    height: 80%;
+    width: 50%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    position: absolute;
+    left: 13%;
+}
+
+.dat {
+    margin: 2%;
+    background-color: lightgray;
+    height: 6%;
+    width: 56%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    font-size: 1.2em;
+}
+
+#dati{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 87%;
+}
+
+#dati div {
+    margin: 3% 2%;
+}
+
+.datvar{
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    font-size: 1.2em;
+}
+
+#username .dat{
+    margin: 2%;
+    background-color: lightgray;
+    height: 84%;
+    width: 106%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    font-size: 1.2em;
+}
+
+.user {
+    border-radius: 20px;
+    height: 80%;
+}
+
+.invia_user {
+    height: 70%;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+span.scri {
+    padding-bottom: 5%;
+    padding-right: 14px;
+}
+
+.im_home {
+    height: 70%;
+}
+
+.scritta_us{
+    position: absolute;
+    left: 42%;
+    font-size: 2.7em;
+}
+
+#pass.dat{
+    margin: 0%;
+    background-color: lightgray;
+    height: 49%;
+    width: 106%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    font-size: 1.2em;
+}
+
+.password {
+    width: 63%;
+    display: flex;
+}
+
+.invia_Pass {
+    position: absolute;
+    border: 3px solid red;
+    border-radius: 20px;
+    top: 82%;
+    left: 55%;
+}
+
+.password .datvar {
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    font-size: 1.2em;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 91%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.password .dat {
+    margin: 2%;
+    background-color: lightgray;
+    height: 57%;
+    width: 51%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    font-size: 1.2em;
+}
+
+.password .cam_Pass {
+    position: absolute;
+    border: 3px solid red;
+    border-radius: 20px;
+    top: 48%;
+    left: 44%;
+    height: 6%;
+    width: 10%;
+}
+
+section h1 {
+    margin-left: 4%;
+    color: darkslategray;
+    font-size: 2em;
+}
+
+.Anagrafica .datavar{
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 36%;
+    width: 39%;
+}
+
+.Anagrafica .datvar {
+    flex-direction: column;
+}
+
+input.name {
+    margin-left: 9.3%;
+}
+
+.invia_anagr{
+    border: 3px solid red;
+    border-radius: 20px;
+    height: 10%;
+    width: 19%;
+    margin-top: 10%;
+    margin-left: 78%;
+}
+
+#name, #cogn {
+    height: 49%;
+    width: 100%;
+    padding: 0% 7%;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pref h1 {
+    font-size: 3em;
+    color: white;
+}
+
+#gallery{
+        display: flex;
+        height: 100%;
+        width: 94%;
+        position: absolute;
+        left: 6%;
+        top: 10%;
+        flex-wrap: wrap;
+        }
+
+        #gallery .im{
+        margin: 10px;
+        border: 1px solid gray;
+        padding: 5px;
+        max-width: 150px;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(158, 158, 158);
+        border-radius: 20px;
+        justify-content: center;
+        font-size: 1.2em;
+        display: flex;
+        align-items: end;
+      }
+
+      #gallery img{
+        max-width: 100%;
+      }
+
+
+      #gallery .cuoreVuoto{
+        height: 15%;
+      }
+
+      #gallery .cuorePieno{
+        height: 15%;
+      }
+
+      .back img {
+        height: 20%;
+        position: absolute;
+        top: -5%;
+        left: 1%;
+     }
+
+     img.logo_img{
+    height: 13%;
+    position: absolute;
+    left: 1%;
+    }
+
+    nav.pop {
+    height: 13%;
+    }
+
+    #gallery.popol {
+    top: 17%;
+    }
+
+    .scri_pop {
+    font-size: 3em;
+    position: absolute;
+    left: 46%;
+    top: 2%;    
+    }
+
+    .descr {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    background-color: darkkhaki;
+    }
+
+    .pop .im_home {
+    position: absolute;
+    height: 20%;
+    top: -4%;
+    left: 86%;
+    }
+
+    .avviso {
+    position: absolute;
+    left: 16%;
+    top: 10%;
+    font-size: 4em;
+    color: red;
+    font-family: cursive;
+    width: 65%;
+    background-color: rgba(255, 0, 0, 0.129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    border: 2px solid darkorange;
+}
+
+
+
